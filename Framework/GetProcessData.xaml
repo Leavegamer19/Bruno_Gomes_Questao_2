@@ -118,7 +118,7 @@
       <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="GetProcessData" sap:VirtualizedContainerService.HintSize="1215,1140" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="GetProcessData" sap:VirtualizedContainerService.HintSize="2497,1140" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -140,7 +140,7 @@
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <ui:GetOutlookMailMessages Account="{x:Null}" FilterByMessageIds="{x:Null}" TimeoutMS="{x:Null}" ConnectionMode="LegacyConfiguration" DisplayName="Get Outlook Desktop Mail Messages - Relatorio Diario" Filter="[in_Config(&quot;MailSubjectFilter&quot;).ToString]" GetAttachements="False" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_3" MailFolder="Caixa de Entrada" MarkAsRead="False" Messages="[var_MailsRelatorioDiario]" OnlyUnreadMessages="True" OrderByDate="NewestFirst" Top="30" UseISConnection="False">
+            <ui:GetOutlookMailMessages Account="{x:Null}" FilterByMessageIds="{x:Null}" TimeoutMS="{x:Null}" ConnectionMode="LegacyConfiguration" DisplayName="Get Outlook Desktop Mail Messages - Relatorio Diario" Filter="[in_Config(&quot;MailSubjectFilter&quot;).ToString]" GetAttachements="False" sap:VirtualizedContainerService.HintSize="484,122" sap2010:WorkflowViewState.IdRef="GetOutlookMailMessages_3" MailFolder="Caixa de Entrada" MarkAsRead="True" Messages="[var_MailsRelatorioDiario]" OnlyUnreadMessages="True" OrderByDate="NewestFirst" Top="30" UseISConnection="False">
               <ui:GetOutlookMailMessages.ConnectionDetailsBackupSlot>
                 <usau:BackupSlot x:TypeArguments="umae:ConnectionDetails" StoredValue="{x:Null}">
                   <usau:BackupSlot.BackupValues>
